@@ -6,11 +6,16 @@
 	"repository": "https://github.com/motionpage/equilibrium",
 	"publisher": "motionpage",
 	"icon": "images/icon.png",
-	"license": "MIT",
+	"license": "SEE LICENSE IN LICENSE",
+	"homepage": "https://github.com/motionpage/equilibrium/blob/main/README.md",
 	"keywords": [
 		"theme",
-		"equilibrium",
-		"dracularity"
+		"Equilibrium",
+		"Dracula",
+		"Dracula Refined",
+		"dark theme",
+		"dark-theme",
+		"Late Night Theme"
 	],
 	"engines": {
 		"vscode": "^1.65.0"
@@ -26,5 +31,9 @@
 				"path": "./themes/Equilibrium-color-theme.json"
 			}
 		]
+	},
+	"galleryBanner": {
+		"color": "#252525",
+		"theme": "dark"
 	}
 }
