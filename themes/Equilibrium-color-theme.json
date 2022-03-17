@@ -2,7 +2,7 @@
 	"$schema": "vscode://schemas/color-theme",
 	"name": "Equilibrium",
 	"author": "Zeno Rocha & Matheus Calegaro",
-	"maintainers": "Rados51 <https://github.com/Rados51>",
+	"maintainers": "Radoš Petrović <rados@motion.page>",
 	"semanticClass": "theme.equilibrium",
 	"semanticHighlighting": true,
 	"colors": {

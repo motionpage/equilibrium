@@ -3,8 +3,9 @@
 	"displayName": "Equilibrium",
 	"description": "Fork of Dracula Refined, which is a fork of original Dracula theme.",
 	"version": "0.1.0",
-	"repository": "https://github.com/Rados51/equilibrium",
+	"repository": "https://github.com/motionpage/equilibrium",
 	"publisher": "motionpage",
+	"icon": "https://raw.githubusercontent.com/motionpage/equilibrium/master/images/equilibriumIcon.png",
 	"engines": {
 		"vscode": "^1.65.0"
 	},
