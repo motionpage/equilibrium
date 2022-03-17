@@ -2,7 +2,7 @@
 	"name": "equilibrium-theme",
 	"displayName": "Equilibrium",
 	"description": "Fork of Dracula Refined, which is a fork of original Dracula theme.",
-	"version": "1.0.0",
+	"version": "0.1.0",
 	"repository": "https://github.com/Rados51/equilibrium",
 	"publisher": "motionpage",
 	"engines": {
@@ -14,9 +14,9 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Frankenstein",
+				"label": "Equilibrium",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Frankenstein-color-theme.json"
+				"path": "./themes/Equilibrium-color-theme.json"
 			}
 		]
 	}
