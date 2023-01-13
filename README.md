@@ -21,3 +21,27 @@ This theme was tweaked in the way, so you could keep working for countless hours
 ![Showcase Screen](https://raw.githubusercontent.com/motionpage/equilibrium/master/images/showcase.png)
 
 </div>
+
+<div align="center">
+  
+Optional font-family, icons and workbench parameters inside `settings.json`. 
+
+</div>
+
+```json
+{
+  "editor.fontFamily": "JetBrains Mono, Fira Code, MesloLGS NF, Menlo, monospace",
+  "workbench.colorCustomizations": {
+    "[Equilibrium]": {
+      "editorInlayHint.background": "#42475A",
+      "editorInlayHint.foreground": "#FFFFFF",
+      "editorInlayHint.parameterBackground": "#42475A",
+      "editorInlayHint.parameterForeground": "#FFFFFF",
+      "editorInlayHint.typeBackground": "#42475A",
+      "editorInlayHint.typeForeground": "#FFFFFF"
+    }
+  },
+  "workbench.fontAliasing": "antialiased",
+  "workbench.iconTheme": "vscode-simpler-icons",
+}
+```
