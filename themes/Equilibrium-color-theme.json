@@ -457,7 +457,11 @@
 				"variable.language",
 				"variable.language punctuation.definition.variable.php",
 				"variable.other.readwrite.instance.ruby",
-				"variable.parameter.function.language.special"
+				"variable.parameter.function.language.special",
+				"variable.other.readwrite.alias.js",
+				"variable.other.readwrite.alias.ts",
+				"variable.other.readwrite.alias.jsx",
+				"variable.other.readwrite.alias.tsx"
 			],
 			"settings": {
 				"foreground": "#BD93F9",
@@ -521,7 +525,11 @@
 				"variable.other.constant.js",
 				"variable.other.constant.ts",
 				"variable.other.constant.jsx",
-				"variable.other.constant.tsx"
+				"variable.other.constant.tsx",
+				"variable.other.readwrite.js",
+				"variable.other.readwrite.ts",
+				"variable.other.readwrite.jsx",
+				"variable.other.readwrite.tsx"
 			],
 			"settings": {
 				"foreground": "#BD93F9"
@@ -598,13 +606,7 @@
 		},
 		{
 			"name": "Decorator Objects",
-			"scope": [
-				"meta.decorator variable.other.object",
-				"variable.other.object.js",
-				"variable.other.object.ts",
-				"variable.other.object.jsx",
-				"variable.other.object.tsx"
-			],
+			"scope": ["meta.decorator variable.other.object"],
 			"settings": {
 				"foreground": "#50FA7B"
 			}
@@ -632,7 +634,13 @@
 		},
 		{
 			"name": "Language Built-ins",
-			"scope": ["support"],
+			"scope": [
+				"support",
+				"variable.other.object.js",
+				"variable.other.object.ts",
+				"variable.other.object.jsx",
+				"variable.other.object.tsx"
+			],
 			"settings": {
 				"fontStyle": "italic",
 				"foreground": "#8BE9FD"
