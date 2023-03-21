@@ -515,7 +515,14 @@
 		},
 		{
 			"name": "Constants",
-			"scope": ["constant", "variable.other.constant"],
+			"scope": [
+				"constant",
+				"variable.other.constant",
+				"variable.other.constant.js",
+				"variable.other.constant.ts",
+				"variable.other.constant.jsx",
+				"variable.other.constant.tsx"
+			],
 			"settings": {
 				"foreground": "#BD93F9"
 			}
@@ -591,7 +598,13 @@
 		},
 		{
 			"name": "Decorator Objects",
-			"scope": ["meta.decorator variable.other.object"],
+			"scope": [
+				"meta.decorator variable.other.object",
+				"variable.other.object.js",
+				"variable.other.object.ts",
+				"variable.other.object.jsx",
+				"variable.other.object.tsx"
+			],
 			"settings": {
 				"foreground": "#50FA7B"
 			}
@@ -709,7 +722,11 @@
 				"punctuation.section.embedded.end",
 				"punctuation.section.embedded.end source.php",
 				"punctuation.section.embedded.end source.ruby",
-				"punctuation.definition.variable.makefile"
+				"punctuation.definition.variable.makefile",
+				"punctuation.section.embedded.begin.tsx",
+				"punctuation.section.embedded.end.tsx",
+				"punctuation.section.embedded.begin.jsx",
+				"punctuation.section.embedded.end.jsx"
 			],
 			"settings": {
 				"foreground": "#FF79C6"
@@ -892,14 +909,7 @@
 		},
 		{
 			"name": "Variables and object properties",
-			"scope": [
-				"variable",
-				"constant.other.key.perl",
-				"support.variable.property",
-				"variable.other.constant.js",
-				"variable.other.constant.ts",
-				"variable.other.constant.tsx"
-			],
+			"scope": ["variable", "constant.other.key.perl", "support.variable.property"],
 			"settings": {
 				"foreground": "#F8F8F2"
 			}
@@ -959,10 +969,6 @@
 				"meta.scope.for-loop.shell punctuation.definition.string.end",
 				"meta.scope.for-loop.shell string",
 				"storage.modifier.import",
-				"punctuation.section.embedded.begin.tsx",
-				"punctuation.section.embedded.end.tsx",
-				"punctuation.section.embedded.begin.jsx",
-				"punctuation.section.embedded.end.jsx",
 				"punctuation.separator.list.comma.css",
 				"constant.language.empty-list.haskell"
 			],

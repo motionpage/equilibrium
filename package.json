@@ -2,7 +2,7 @@
 	"name": "equilibrium-theme",
 	"displayName": "Equilibrium",
 	"description": "A fork of Dracula Refined, which is a fork of the original Dracula theme.",
-	"version": "0.2.4",
+	"version": "0.3.0",
 	"repository": "https://github.com/motionpage/equilibrium",
 	"publisher": "motionpage",
 	"icon": "images/icon.png",
