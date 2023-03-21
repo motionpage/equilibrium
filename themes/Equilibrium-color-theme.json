@@ -529,7 +529,9 @@
 				"variable.other.readwrite.js",
 				"variable.other.readwrite.ts",
 				"variable.other.readwrite.jsx",
-				"variable.other.readwrite.tsx"
+				"variable.other.readwrite.tsx",
+				"punctuation.accessor.optional.ts",
+				"punctuation.accessor.optional.tsx"
 			],
 			"settings": {
 				"foreground": "#BD93F9"
