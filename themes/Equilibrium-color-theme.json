@@ -521,11 +521,7 @@
 				"variable.other.object.js",
 				"variable.other.object.jsx",
 				"variable.other.object.ts",
-				"variable.other.object.tsx",
-				"variable.other.readwrite.js",
-				"variable.other.readwrite.jsx",
-				"variable.other.readwrite.ts",
-				"variable.other.readwrite.tsx"
+				"variable.other.object.tsx"
 			],
 			"settings": {
 				"foreground": "#BD93F9"
