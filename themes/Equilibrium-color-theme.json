@@ -518,10 +518,8 @@
 			"scope": [
 				"constant",
 				"variable.other.constant",
-				"variable.other.object.js",
-				"variable.other.object.jsx",
-				"variable.other.object.ts",
-				"variable.other.object.tsx"
+				"variable.other.object",
+				"variable.other.constant.object"
 			],
 			"settings": {
 				"foreground": "#BD93F9"
