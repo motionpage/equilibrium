@@ -17,6 +17,9 @@
 		"dark-theme",
 		"Late Night Theme"
 	],
+	"scripts": {
+		"publish": "^vsce package && vsce publish"
+	},
 	"engines": {
 		"vscode": "^1.65.0"
 	},
