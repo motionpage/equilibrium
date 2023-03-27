@@ -519,7 +519,8 @@
 				"constant",
 				"variable.other.constant",
 				"variable.other.object",
-				"variable.other.constant.object"
+				"variable.other.constant.object.tsx",
+				"variable.other.constant.object.ts"
 			],
 			"settings": {
 				"foreground": "#BD93F9"
